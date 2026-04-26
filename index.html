@@ -1,0 +1,491 @@
+﻿<!DOCTYPE html>
+
+<html lang="zh-CN"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>首页 - 浙江张旭动物医院</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary-container": "#5f759b",
+                    "secondary": "#096969",
+                    "inverse-on-surface": "#f0f1f2",
+                    "primary-fixed": "#78fc9c",
+                    "primary": "#006b32",
+                    "on-tertiary-container": "#fefcff",
+                    "outline-variant": "#bccabb",
+                    "on-secondary-fixed-variant": "#004f4f",
+                    "surface-container-highest": "#e1e3e4",
+                    "on-tertiary-fixed-variant": "#30476a",
+                    "on-error-container": "#93000a",
+                    "on-secondary-container": "#166f6f",
+                    "surface-dim": "#d9dadb",
+                    "inverse-primary": "#5adf82",
+                    "on-primary-container": "#f7fff3",
+                    "tertiary": "#465d81",
+                    "tertiary-fixed-dim": "#b0c7f1",
+                    "on-background": "#191c1d",
+                    "on-surface": "#191c1d",
+                    "on-secondary-fixed": "#002020",
+                    "surface-container": "#edeeef",
+                    "secondary-container": "#a2f0ef",
+                    "surface-container-lowest": "#ffffff",
+                    "primary-container": "#008740",
+                    "on-secondary": "#ffffff",
+                    "on-tertiary": "#ffffff",
+                    "surface-variant": "#e1e3e4",
+                    "on-error": "#ffffff",
+                    "primary-fixed-dim": "#5adf82",
+                    "on-surface-variant": "#3d4a3e",
+                    "secondary-fixed": "#a2f0ef",
+                    "surface-tint": "#006d33",
+                    "secondary-fixed-dim": "#86d4d3",
+                    "surface-bright": "#f8f9fa",
+                    "on-primary": "#ffffff",
+                    "tertiary-fixed": "#d5e3ff",
+                    "on-primary-fixed": "#00210b",
+                    "error-container": "#ffdad6",
+                    "background": "#f8f9fa",
+                    "outline": "#6d7b6d",
+                    "surface-container-high": "#e7e8e9",
+                    "inverse-surface": "#2e3132",
+                    "error": "#ba1a1a",
+                    "on-primary-fixed-variant": "#005225",
+                    "on-tertiary-fixed": "#001b3c",
+                    "surface": "#f8f9fa",
+                    "surface-container-low": "#f3f4f5"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": { "headline": ["Manrope", "Noto Sans SC", "sans-serif"], "body": ["Noto Sans SC", "Inter", "sans-serif"], "label": ["Inter", "Noto Sans SC", "sans-serif"] }
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-nav {
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+      }
+      body {
+        font-family: 'Noto Sans SC', 'Inter', sans-serif;
+      }
+      h1, h2, h3, .font-headline {
+        font-family: 'Manrope', 'Noto Sans SC', sans-serif;
+      }
+          html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+      img, video {
+        max-width: 100%;
+      }
+      @media (max-width: 640px) {
+        .max-w-3xl,
+        .max-w-4xl,
+        .max-w-5xl,
+        .max-w-6xl,
+        .max-w-7xl {
+          max-width: calc(100vw - 2rem) !important;
+        }
+        header button,
+        nav > div > button {
+          display: none;
+        }
+        body * {
+          min-width: 0;
+        }
+        header .text-xl,
+        nav .text-xl {
+          font-size: 1rem;
+          line-height: 1.25rem;
+        }
+        header button,
+        nav > div > button {
+          padding-left: 0.75rem !important;
+          padding-right: 0.75rem !important;
+          font-size: 0.8125rem !important;
+          white-space: nowrap;
+        }
+        p, h1, h2, h3, a, button {
+          overflow-wrap: anywhere;
+        }
+      }
+    </style>
+</head>
+<body class="bg-surface text-on-surface overflow-x-hidden">
+<!-- Top Navigation Bar -->
+<header class="fixed top-0 w-full z-50 glass-nav bg-white/80 dark:bg-slate-900/80 shadow-sm dark:shadow-none">
+<div class="max-w-7xl mx-auto flex justify-between items-center px-4 md:px-8 h-20">
+<div class="text-xl font-black text-slate-900 dark:text-white tracking-tighter" style="">
+                张旭动物医院
+            </div>
+<nav class="hidden md:flex items-center space-x-8 font-manrope font-semibold text-sm tracking-tight">
+<a class="text-emerald-600 dark:text-emerald-400 border-b-2 border-emerald-600 pb-1" href="index.html" style="">首页</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-emerald-500 transition-colors" href="about.html" style="">医院概况</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-emerald-500 transition-colors" href="services.html" style="">医疗服务</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-emerald-500 transition-colors" href="team.html" style="">专家团队</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-emerald-500 transition-colors" href="guide.html" style="">就诊指南</a>
+</nav>
+<div class="flex items-center space-x-4">
+<button class="bg-primary text-on-primary px-4 sm:px-6 py-2 rounded-lg font-bold transition-transform scale-95 active:opacity-80" style="">
+                    联系我们
+                </button>
+</div>
+</div>
+<div class="bg-slate-100 dark:bg-slate-800 h-[1px] w-full"></div>
+</header>
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover" data-alt="professional modern veterinary clinic interior with high-end equipment, bright windows, and minimal clinical aesthetic in soft daylight" src="assets/images/image-01.jpg" style=""/>
+<div class="absolute inset-0 bg-white/70 backdrop-blur-[2px]"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-20">
+<div class="max-w-3xl">
+<h1 class="text-4xl sm:text-5xl md:text-7xl font-extrabold text-on-surface tracking-tight mb-8 leading-[1.1]" style="">
+                    让专业医疗，<br/><span class="text-primary" style="">守护每一个</span><br/>毛孩子家庭
+                </h1>
+<p class="text-xl text-on-surface-variant leading-relaxed mb-12" style="">
+                    浙江张旭动物医院，专注犬猫临床诊疗，以更规范的诊疗流程、更细致的沟通和更可靠的医疗服务，陪伴每一次重要的就诊时刻。
+                </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary text-on-primary px-6 sm:px-10 py-4 rounded-lg font-bold text-lg hover:bg-primary-container transition-all shadow-xl shadow-primary/10" style="">
+                        了解科室服务
+                    </button>
+<button class="bg-surface-container-highest text-on-surface px-6 sm:px-10 py-4 rounded-lg font-bold text-lg hover:bg-surface-container-high transition-all" style="">
+                        联系我们
+                    </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Core Advantages -->
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-4 md:px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+<!-- Advantage 1 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl border-l-4 border-primary hover:translate-y-[-4px] transition-all duration-300">
+<span class="material-symbols-outlined text-primary text-4xl mb-6" style="">task_alt</span>
+<h3 class="text-xl font-bold mb-4" style="">规范诊疗流程</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed" style="">严格遵循现代化医疗操作规范，确保从挂号到复诊的每一个环节都严谨无误。</p>
+</div>
+<!-- Advantage 2 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl border-l-4 border-primary hover:translate-y-[-4px] transition-all duration-300">
+<span class="material-symbols-outlined text-primary text-4xl mb-6" style="">biotech</span>
+<h3 class="text-xl font-bold mb-4" style="">聚焦犬猫临床医疗</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed" style="">深耕犬猫专科领域，以精湛的技术处理各类疑难杂症，为生命保驾护航。</p>
+</div>
+<!-- Advantage 3 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl border-l-4 border-primary hover:translate-y-[-4px] transition-all duration-300">
+<span class="material-symbols-outlined text-primary text-4xl mb-6" style="">forum</span>
+<h3 class="text-xl font-bold mb-4" style="">医生团队面对面沟通</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed" style="">建立深度的医患信任，详细解读病情，让每一位宠主都能透明、清晰地了解治疗方案。</p>
+</div>
+<!-- Advantage 4 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl border-l-4 border-primary hover:translate-y-[-4px] transition-all duration-300">
+<span class="material-symbols-outlined text-primary text-4xl mb-6" style="">medical_services</span>
+<h3 class="text-xl font-bold mb-4" style="">检查与治疗协同</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed" style="">自有高精尖检验中心，实现快速诊断与精准治疗的无缝衔接，缩短病程。</p>
+</div>
+</div>
+</div>
+</section>
+<!-- President Profile Section -->
+<section class="py-24 bg-surface-container-low overflow-hidden" id="president-profile">
+<div class="max-w-7xl mx-auto px-4 md:px-8">
+<div class="flex flex-col lg:flex-row items-center gap-16">
+<!-- Left: Photo and Quote -->
+<div class="w-full lg:w-5/12 relative">
+<div class="rounded-2xl overflow-hidden shadow-2xl">
+<img class="w-full aspect-[4/5] object-contain bg-surface-container-high" data-alt="张旭院长专业兽医肖像" src="assets/doctor-display-photos/zhang-xu.jpg" style=""/>
+</div>
+<div class="absolute -bottom-8 -right-8 bg-primary text-on-primary p-10 rounded-2xl max-w-sm shadow-2xl">
+<span class="text-5xl opacity-50 mb-4 block font-headline" style="">“</span>
+<p class="text-lg font-medium leading-relaxed italic" style="">
+                            “每一个生命都值得被全力以赴。精湛技术是基础，医者的责任感才是通往治愈的唯一路径。”
+                        </p>
+<p class="mt-4 font-bold text-xl" style="">— 张旭 院长</p>
+</div>
+</div>
+<!-- Right: Content -->
+<div class="w-full lg:w-7/12 mt-12 lg:mt-0">
+<div class="mb-12">
+<h2 class="text-4xl font-extrabold mb-4" style="">张旭 院长</h2>
+<div class="h-1 w-20 bg-primary mb-6"></div>
+<p class="text-on-surface-variant text-lg" style="">国家执业兽医，浙江兽医张旭动物健康科技有限公司董事长，长期专注小动物复杂外科、神经外科、介入治疗与疑难重症会诊。</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+<div>
+<h4 class="text-secondary font-bold mb-4 flex items-center" style="">
+专业履历
+                            </h4>
+<ul class="space-y-4 text-on-surface-variant text-sm leading-loose">
+<li class="" style="">• 东北农业大学动物医学专业</li>
+<li class="" style="">• 美国密西西比大学兽医外科 / 神经外科双认证</li>
+<li class="" style="">• 德中兽医协会会长</li>
+<li class="" style="">• 中国兽医协会宠物诊疗协会常务理事</li>
+</ul>
+</div>
+<div>
+<h4 class="text-secondary font-bold mb-4 flex items-center" style="">
+核心专长
+                            </h4>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-surface-container-highest rounded text-xs font-semibold" style="">复杂骨关节手术</span>
+<span class="px-3 py-1 bg-surface-container-highest rounded text-xs font-semibold" style="">神经外科</span>
+<span class="px-3 py-1 bg-surface-container-highest rounded text-xs font-semibold" style="">介入治疗</span>
+<span class="px-3 py-1 bg-surface-container-highest rounded text-xs font-semibold" style="">疑难重症会诊</span>
+</div>
+<div class="mt-8 rounded-xl overflow-hidden border border-outline-variant/20">
+<img class="w-full h-32 object-cover" data-alt="professional veterinarian doctor discussing medical report with data visualizations on a screen in a modern office" src="assets/images/image-03.jpg" style=""/>
+</div>
+</div>
+</div>
+<div class="mt-12">
+<a class="inline-flex bg-surface-container-lowest text-primary border border-primary px-4 md:px-8 py-3 rounded-lg font-bold hover:bg-primary hover:text-on-primary transition-all" href="doctor-profile.html?doctor=zhang-xu" style="">
+                            查看完整简历
+                        </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Core Services Bento Grid -->
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-4 md:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-extrabold mb-4" style="">全方位医疗服务</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto" style="">汇聚顶尖医疗资源，为您的宠物提供从预防到复杂手术的全周期健康管理。</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Service 1 -->
+<div class="bg-surface-container-low p-8 rounded-xl group hover:bg-primary transition-colors duration-300">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary text-5xl mb-6 block" style="">psychology</span>
+<h3 class="text-xl font-bold mb-4 group-hover:text-on-primary" style="">神经科</h3>
+<p class="text-on-surface-variant group-hover:text-on-primary/80 text-sm leading-relaxed" style="">脑部和脊髓高清核磁共振、脊骨手术、椎间盘手术、癫痫症诊断、脑室腹腔分流手术、全身电脑断层扫描三维重建、脑肿瘤手术等。</p>
+</div>
+<!-- Service 2 -->
+<div class="bg-surface-container-low p-8 rounded-xl group hover:bg-primary transition-colors duration-300">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary text-5xl mb-6 block" style="">healing</span>
+<h3 class="text-xl font-bold mb-4 group-hover:text-on-primary" style="">骨科</h3>
+<p class="text-on-surface-variant group-hover:text-on-primary/80 text-sm leading-relaxed" style="">复杂骨折修复、骨关节矫正、髌骨复位和十字韧带预防手术、关节镜手术、人工髋关节置换、骨移植等。</p>
+</div>
+<!-- Service 3 -->
+<div class="bg-surface-container-low p-8 rounded-xl group hover:bg-primary transition-colors duration-300">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary text-5xl mb-6 block" style="">coronavirus</span>
+<h3 class="text-xl font-bold mb-4 group-hover:text-on-primary" style="">肿瘤科</h3>
+<p class="text-on-surface-variant group-hover:text-on-primary/80 text-sm leading-relaxed" style="">肿瘤的外科切除、电脑断层扫描三维重建用于肿瘤定位定性、靶向治疗、化学治疗、组合消融、非化疗安宁疗法、补充医学、免疫疗法等。</p>
+</div>
+<!-- Service 4 -->
+<div class="bg-surface-container-low p-8 rounded-xl group hover:bg-primary transition-colors duration-300">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary text-5xl mb-6 block" style="">dentistry</span>
+<h3 class="text-xl font-bold mb-4 group-hover:text-on-primary" style="">牙科</h3>
+<p class="text-on-surface-variant group-hover:text-on-primary/80 text-sm leading-relaxed" style="">提供犬猫全口拔牙常规拔牙、补牙、根管治疗、人工骨填补、正畸种植牙等手术。</p>
+</div>
+<!-- Service 5 -->
+<div class="bg-surface-container-low p-8 rounded-xl group hover:bg-primary transition-colors duration-300">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary text-5xl mb-6 block" style="">visibility</span>
+<h3 class="text-xl font-bold mb-4 group-hover:text-on-primary" style="">眼科</h3>
+<p class="text-on-surface-variant group-hover:text-on-primary/80 text-sm leading-relaxed" style="">眼睑手术、角膜手术、白内障超声乳化（人工晶体植入）术、青光眼减压手术等。</p>
+</div>
+<!-- Service 6 -->
+<div class="bg-surface-container-low p-8 rounded-xl group hover:bg-primary transition-colors duration-300">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary text-5xl mb-6 block" style="">stethoscope</span>
+<h3 class="text-xl font-bold mb-4 group-hover:text-on-primary" style="">内科</h3>
+<p class="text-on-surface-variant group-hover:text-on-primary/80 text-sm leading-relaxed" style="">内科团队、CRRT（continuous renal replacement therapy，CRRT）血液净化治疗，治疗不同原因的中毒、各类肝肾衰竭、重症胰腺炎等危重症。</p>
+</div>
+<!-- Service 7 -->
+<div class="bg-surface-container-low p-8 rounded-xl group hover:bg-primary transition-colors duration-300">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary text-5xl mb-6 block" style="">cruelty_free</span>
+<h3 class="text-xl font-bold mb-4 group-hover:text-on-primary" style="">异宠科</h3>
+<p class="text-on-surface-variant group-hover:text-on-primary/80 text-sm leading-relaxed" style="">针对兔子小啮类以及鸟类等各类异宠疾病进行诊治。诊治常见的内科疾病，同时可开展骨折、肿瘤切除、胃内异物取出等外科手术。</p>
+</div>
+<!-- Service 8 -->
+<div class="bg-surface-container-low p-8 rounded-xl group hover:bg-primary transition-colors duration-300">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary text-5xl mb-6 block" style="">bed</span>
+<h3 class="text-xl font-bold mb-4 group-hover:text-on-primary" style="">住院护理</h3>
+<p class="text-on-surface-variant group-hover:text-on-primary/80 text-sm leading-relaxed" style="">24小时恒温住院区，专业护理人员定时巡视，提供最温馨的恢复环境。</p>
+</div>
+<!-- Service 9 -->
+<div class="bg-surface-container-low p-8 rounded-xl group hover:bg-primary transition-colors duration-300">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary text-5xl mb-6 block" style="">vaccines</span>
+<h3 class="text-xl font-bold mb-4 group-hover:text-on-primary" style="">预防保健</h3>
+<p class="text-on-surface-variant group-hover:text-on-primary/80 text-sm leading-relaxed" style="">定制化免疫程序、驱虫方案及体检包，从源头预防疾病发生。</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Service Process Timeline -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-4 md:px-8">
+<div class="text-center mb-20">
+<h2 class="text-4xl font-extrabold mb-4" style="">就诊流程</h2>
+<p class="text-on-surface-variant" style="">标准化的服务路径，让每一个环节都高效有序</p>
+</div>
+<div class="relative">
+<div class="absolute top-1/2 left-0 w-full h-0.5 bg-outline-variant/30 hidden md:block -translate-y-1/2"></div>
+<div class="grid grid-cols-1 md:grid-cols-5 gap-8 relative z-10">
+<!-- Step 1 -->
+<div class="flex flex-col items-center text-center">
+<div class="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-on-primary font-bold text-xl mb-6 shadow-lg shadow-primary/20" style="">1</div>
+<h4 class="font-bold mb-2" style="">电话咨询</h4>
+<p class="text-on-surface-variant text-xs px-4" style="">拨打热线初步了解病情及就诊建议</p>
+</div>
+<!-- Step 2 -->
+<div class="flex flex-col items-center text-center">
+<div class="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-on-primary font-bold text-xl mb-6 shadow-lg shadow-primary/20" style="">2</div>
+<h4 class="font-bold mb-2" style="">到院登记</h4>
+<p class="text-on-surface-variant text-xs px-4" style="">建立电子病历档案，专人引导就诊</p>
+</div>
+<!-- Step 3 -->
+<div class="flex flex-col items-center text-center">
+<div class="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-on-primary font-bold text-xl mb-6 shadow-lg shadow-primary/20" style="">3</div>
+<h4 class="font-bold mb-2" style="">医生面诊</h4>
+<p class="text-on-surface-variant text-xs px-4" style="">主治医师一对一详细问诊与体检</p>
+</div>
+<!-- Step 4 -->
+<div class="flex flex-col items-center text-center">
+<div class="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-on-primary font-bold text-xl mb-6 shadow-lg shadow-primary/20" style="">4</div>
+<h4 class="font-bold mb-2" style="">明确方案</h4>
+<p class="text-on-surface-variant text-xs px-4" style="">根据检查结果共同制定最佳治疗计划</p>
+</div>
+<!-- Step 5 -->
+<div class="flex flex-col items-center text-center">
+<div class="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-on-primary font-bold text-xl mb-6 shadow-lg shadow-primary/20" style="">5</div>
+<h4 class="font-bold mb-2" style="">治疗复诊</h4>
+<p class="text-on-surface-variant text-xs px-4" style="">精准执行治疗并建立定期复查机制</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="py-24 bg-surface">
+<div class="max-w-4xl mx-auto px-4 md:px-8">
+<h2 class="text-4xl font-extrabold mb-12 text-center" style="">常见问题</h2>
+<div class="space-y-4">
+<details class="group bg-surface-container-low rounded-xl" open="" style="">
+<summary class="flex justify-between items-center p-6 cursor-pointer list-none" style="">
+<span class="font-bold text-lg" style="">初次就诊需要准备什么？</span>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180" style="">expand_more</span>
+</summary>
+<div class="p-6 pt-0 text-on-surface-variant leading-relaxed" style="">
+                        请携带宠物之前的病历记录、疫苗接种证。如果是为了解决特定的健康问题，建议禁食4-6小时（饮水照常），以便必要时进行化验。
+                    </div>
+</details>
+<details class="group bg-surface-container-low rounded-xl" style="">
+<summary class="flex justify-between items-center p-6 cursor-pointer list-none" style="">
+<span class="font-bold text-lg" style="">你们支持全天候急诊吗？</span>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180" style="">expand_more</span>
+</summary>
+<div class="p-6 pt-0 text-on-surface-variant leading-relaxed" style="">
+                        是的，我们的总院提供24小时急诊服务。深夜就诊建议先通过急诊热线联系，以便医生团队提前准备抢救设备。
+                    </div>
+</details>
+<details class="group bg-surface-container-low rounded-xl" style="">
+<summary class="flex justify-between items-center p-6 cursor-pointer list-none" style="">
+<span class="font-bold text-lg" style="">手术后是否有专业的护理团队？</span>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180" style="">expand_more</span>
+</summary>
+<div class="p-6 pt-0 text-on-surface-variant leading-relaxed" style="">
+                        我们拥有专门的住院护理部。术后动物会进入ICU或重症监护区，由专职护士全程监控生命体征，直至完全康复出院。
+                    </div>
+</details>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full py-12 px-4 md:px-8 border-t border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-7xl mx-auto">
+<div class="col-span-1 md:col-span-1">
+<div class="text-lg font-bold text-emerald-700 mb-6" style="">张旭动物医院</div>
+<p class="text-xs text-slate-500 leading-relaxed mb-6" style="">
+                    浙江省领先的综合性宠物医疗机构，以临床技术为核心，致力于提升宠物生命质量。
+                </p>
+<div class="flex space-x-4">
+<span class="material-symbols-outlined text-emerald-700 cursor-pointer" style="">public</span>
+<span class="material-symbols-outlined text-emerald-700 cursor-pointer" style="">chat</span>
+<span class="material-symbols-outlined text-emerald-700 cursor-pointer" style="">share</span>
+</div>
+</div>
+<div>
+<h4 class="font-bold text-sm mb-6 text-slate-900" style="">滨江院区</h4>
+<p class="text-xs text-slate-500 leading-relaxed" style="">
+                    杭州市滨江区滨和路998号<br/>
+                    电话：0571-86873458<br/>
+                    服务：综合诊疗/疑难会诊
+                </p>
+</div>
+<div>
+<h4 class="font-bold text-sm mb-6 text-slate-900" style="">朝晖院区</h4>
+<p class="text-xs text-slate-500 leading-relaxed" style="">
+                    杭州市下城区河东路266号<br/>
+                    电话：0571-88806817<br/>
+                    服务：24小时全科诊疗
+                </p>
+</div>
+<div>
+<h4 class="font-bold text-sm mb-6 text-slate-900" style="">城西院区</h4>
+<p class="text-xs text-slate-500 leading-relaxed" style="">
+                    杭州市拱墅区水月街4号<br/>
+                    电话：0571-87651915<br/>
+                    服务：骨科特色/物理康复
+                </p>
+</div>
+</div>
+<div class="max-w-7xl mx-auto mt-12 pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="font-noto-sans font-normal text-xs leading-relaxed text-slate-500" style="">
+                © 2024 浙江张旭动物医院 版权所有 浙ICP备xxxxxxxx号
+            </p>
+<div class="flex space-x-6 text-xs text-slate-500">
+<a class="hover:text-emerald-600 underline-offset-4 hover:underline" href="contact.html" style="">分院地址</a>
+<a class="hover:text-emerald-600 underline-offset-4 hover:underline" href="contact.html" style="">急诊通道</a>
+<a class="hover:text-emerald-600 underline-offset-4 hover:underline" href="#" style="">隐私政策</a>
+<a class="hover:text-emerald-600 underline-offset-4 hover:underline" href="#" style="">法律声明</a>
+</div>
+</div>
+</footer>
+<script>
+(() => {
+  const routes = [
+    { pattern: /联系我们|分院地址|急诊|预约|挂号|问诊|在线咨询/, href: "contact.html" },
+    { pattern: /专家|医生|团队|张旭/, href: "team.html" },
+    { pattern: /医疗服务|科室|诊疗|服务/, href: "services.html" },
+    { pattern: /就诊|指南|流程/, href: "guide.html" },
+    { pattern: /医院|关于|概况|了解更多/, href: "about.html" }
+  ];
+
+  document.addEventListener("click", (event) => {
+    const control = event.target.closest("button");
+    if (!control) return;
+    const text = control.textContent.replace(/\s+/g, "").trim();
+    const route = routes.find((item) => item.pattern.test(text));
+    if (!route) return;
+    window.location.href = route.href;
+  });
+})();
+</script>
+</body></html>
+
+
+
+
+
+
+
+

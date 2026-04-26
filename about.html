@@ -1,0 +1,378 @@
+﻿<!DOCTYPE html>
+
+<html class="light" lang="zh-CN"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>医院介绍 - 浙江张旭动物医院</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-container": "#5f759b",
+                        "secondary": "#096969",
+                        "inverse-on-surface": "#f0f1f2",
+                        "primary-fixed": "#78fc9c",
+                        "primary": "#006b32",
+                        "on-tertiary-container": "#fefcff",
+                        "outline-variant": "#bccabb",
+                        "on-secondary-fixed-variant": "#004f4f",
+                        "surface-container-highest": "#e1e3e4",
+                        "on-tertiary-fixed-variant": "#30476a",
+                        "on-error-container": "#93000a",
+                        "on-secondary-container": "#166f6f",
+                        "surface-dim": "#d9dadb",
+                        "inverse-primary": "#5adf82",
+                        "on-primary-container": "#f7fff3",
+                        "tertiary": "#465d81",
+                        "tertiary-fixed-dim": "#b0c7f1",
+                        "on-background": "#191c1d",
+                        "on-surface": "#191c1d",
+                        "on-secondary-fixed": "#002020",
+                        "surface-container": "#edeeef",
+                        "secondary-container": "#a2f0ef",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-container": "#008740",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary": "#ffffff",
+                        "surface-variant": "#e1e3e4",
+                        "on-error": "#ffffff",
+                        "primary-fixed-dim": "#5adf82",
+                        "on-surface-variant": "#3d4a3e",
+                        "secondary-fixed": "#a2f0ef",
+                        "surface-tint": "#006d33",
+                        "secondary-fixed-dim": "#86d4d3",
+                        "surface-bright": "#f8f9fa",
+                        "on-primary": "#ffffff",
+                        "tertiary-fixed": "#d5e3ff",
+                        "on-primary-fixed": "#00210b",
+                        "error-container": "#ffdad6",
+                        "background": "#f8f9fa",
+                        "outline": "#6d7b6d",
+                        "surface-container-high": "#e7e8e9",
+                        "inverse-surface": "#2e3132",
+                        "error": "#ba1a1a",
+                        "on-primary-fixed-variant": "#005225",
+                        "on-tertiary-fixed": "#001b3c",
+                        "surface": "#f8f9fa",
+                        "surface-container-low": "#f3f4f5"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.5rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": { "headline": ["Manrope", "Noto Sans SC", "sans-serif"], "body": ["Noto Sans SC", "Inter", "sans-serif"], "label": ["Inter", "Noto Sans SC", "sans-serif"] }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Noto Sans SC', 'Inter', sans-serif; }
+        h1, h2, h3 { font-family: 'Manrope', 'Noto Sans SC', sans-serif; }
+          html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+      img, video {
+        max-width: 100%;
+      }
+      @media (max-width: 640px) {
+        .max-w-3xl,
+        .max-w-4xl,
+        .max-w-5xl,
+        .max-w-6xl,
+        .max-w-7xl {
+          max-width: calc(100vw - 2rem) !important;
+        }
+        header button,
+        nav > div > button {
+          display: none;
+        }
+        body * {
+          min-width: 0;
+        }
+        header .text-xl,
+        nav .text-xl {
+          font-size: 1rem;
+          line-height: 1.25rem;
+        }
+        header button,
+        nav > div > button {
+          padding-left: 0.75rem !important;
+          padding-right: 0.75rem !important;
+          font-size: 0.8125rem !important;
+          white-space: nowrap;
+        }
+        p, h1, h2, h3, a, button {
+          overflow-wrap: anywhere;
+        }
+      }
+    </style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed overflow-x-hidden">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md shadow-sm">
+<div class="max-w-7xl mx-auto flex justify-between items-center px-4 md:px-8 h-20">
+<div class="text-xl font-black text-slate-900 dark:text-white tracking-tighter">
+                浙江张旭动物医院
+            </div>
+<nav class="hidden md:flex items-center gap-8 font-manrope font-semibold text-sm tracking-tight">
+<a class="text-slate-600 dark:text-slate-400 hover:text-emerald-500 transition-colors duration-200" href="index.html">首页</a>
+<a class="text-emerald-600 dark:text-emerald-400 border-b-2 border-emerald-600 pb-1" href="about.html">医院概况</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-emerald-500 transition-colors duration-200" href="services.html">医疗服务</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-emerald-500 transition-colors duration-200" href="team.html">专家团队</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-emerald-500 transition-colors duration-200" href="guide.html">就诊指南</a>
+</nav>
+<div class="flex items-center gap-6">
+<button class="material-symbols-outlined text-slate-600">search</button>
+<button class="bg-primary text-on-primary px-5 py-2.5 rounded-lg text-sm font-semibold scale-95 active:opacity-80 transition-all">
+                    联系我们
+                </button>
+</div>
+</div>
+<div class="bg-slate-100 dark:bg-slate-800 h-[1px] w-full"></div>
+</header>
+<main class="pt-20">
+<!-- Hero Banner -->
+<section class="relative h-[614px] flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover grayscale-[0.2] contrast-[1.1]" data-alt="Modern clinical background with a blurred medical laboratory setting, soft teal and green lighting, high-end editorial feel" src="assets/images/image-04.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary-container/40"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-4 md:px-8 w-full">
+<div class="max-w-2xl">
+<span class="inline-block py-1 px-3 bg-white/20 backdrop-blur-sm text-white text-xs font-bold tracking-widest uppercase mb-6 rounded">About Us</span>
+<h1 class="text-white text-6xl font-extrabold tracking-tight mb-8">
+                        关于浙江张旭动物医院
+                    </h1>
+<p class="text-white/90 text-lg font-light leading-relaxed max-w-lg">
+                        扎根杭州，辐射全国。我们以临床卓越为基石，致力于通过精密技术与人文关怀，构建宠物医疗的新标杆。
+                    </p>
+</div>
+</div>
+</section>
+<!-- Narrative Intro -->
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-16 items-start">
+<div class="md:col-span-5">
+<h2 class="text-4xl font-extrabold text-on-surface tracking-tighter leading-tight mb-6">
+                        严谨即是关怀 <br/>
+<span class="text-primary">Rigorous is Caring</span>
+</h2>
+<div class="w-20 h-1 bg-primary mb-8"></div>
+</div>
+<div class="md:col-span-7">
+<div class="space-y-6 text-on-surface-variant leading-relaxed text-lg">
+<p>
+                            浙江张旭动物医院自创立以来，始终坚持以“生命第一”为最高准则。我们深知，每一个患病宠物背后，都是一份沉甸甸的托付。在张旭，医疗不仅是一门科学，更是一场严谨的修行。
+                        </p>
+<p>
+                            我们的愿景是成为宠物医疗行业的灯塔。通过持续引进全球领先的诊疗设备，如核磁共振(MRI)、CT等高精尖设备，我们为复杂病例提供精准的诊断支撑，确保每一项决策都建立在客观数据与临床经验的交叉印证之上。
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Core Values - Bento Style -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-4 md:px-8">
+<div class="mb-16">
+<p class="text-secondary font-bold tracking-widest text-xs uppercase mb-2">Core Principles</p>
+<h2 class="text-3xl font-black tracking-tight">我们的核心价值</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+<!-- Mission -->
+<div class="md:col-span-2 md:row-span-2 bg-surface-container-lowest p-10 rounded-xl shadow-[0_24px_40px_-15px_rgba(25,28,29,0.04)] border-l-8 border-primary flex flex-col justify-between">
+<div>
+<span class="material-symbols-outlined text-primary text-4xl mb-6">verified_user</span>
+<h3 class="text-2xl font-bold mb-4">医院使命</h3>
+<p class="text-on-surface-variant leading-relaxed text-lg">
+                                让专业医疗更值得托付。我们致力于消除医疗信息的不对称，通过技术革新与流程透明，让每一位宠主都能感受到专业带来的安心。
+                            </p>
+</div>
+<div class="mt-8 text-primary font-bold text-5xl opacity-10 select-none">MISSION</div>
+</div>
+<!-- Philosophy -->
+<div class="md:col-span-2 bg-surface-container-lowest p-8 rounded-xl shadow-[0_24px_40px_-15px_rgba(25,28,29,0.04)]">
+<div class="flex items-start gap-4">
+<div class="bg-secondary-container p-3 rounded-lg text-on-secondary-container">
+<span class="material-symbols-outlined">psychology</span>
+</div>
+<div>
+<h3 class="text-xl font-bold mb-3">经营理念</h3>
+<div class="flex flex-wrap gap-4 text-secondary font-semibold">
+<span>专业</span> / <span>透明</span> / <span>耐心</span> / <span>负责</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Principles -->
+<div class="md:col-span-2 bg-primary text-on-primary p-8 rounded-xl shadow-[0_24px_40px_-15px_rgba(0,107,50,0.2)]">
+<div class="flex items-start gap-4">
+<div class="bg-white/20 p-3 rounded-lg">
+<span class="material-symbols-outlined text-white">fact_check</span>
+</div>
+<div>
+<h3 class="text-xl font-bold mb-3">诊疗准则</h3>
+<p class="text-on-primary/90">
+                                    秉承“先评估，再判断”的医学逻辑。拒绝经验主义式治疗，坚持全方位的临床评估，为爱宠制定个体化的最佳诊疗方案。
+                                </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Environment Showcase -->
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-4 md:px-8">
+<div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+<div>
+<p class="text-secondary font-bold tracking-widest text-xs uppercase mb-2">Hospital Environment</p>
+<h2 class="text-3xl font-black tracking-tight">国际化的诊疗空间</h2>
+</div>
+<div class="text-on-surface-variant max-w-md text-sm leading-relaxed">
+                        我们致力于打造一个宁静、洁净、高效的医疗环境。通过科学的动线设计与无菌化管理，降低患宠的应激反应与感染风险。
+                    </div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Card 1 -->
+<div class="group cursor-pointer">
+<div class="relative overflow-hidden rounded-xl h-80 mb-4">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Modern veterinary hospital waiting area, minimalist furniture, large windows with natural light, clean white and grey surfaces" src="assets/images/image-05.jpg"/>
+<div class="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors"></div>
+</div>
+<h4 class="font-bold text-lg">舒适候诊区</h4>
+<p class="text-on-surface-variant text-sm">宽敞明亮的独立空间，减少猫犬社交应激。</p>
+</div>
+<!-- Card 2 -->
+<div class="group cursor-pointer">
+<div class="relative overflow-hidden rounded-xl h-80 mb-4">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Professional veterinary consulting room with examination table, digital diagnostic screens, sterile medical environment" src="assets/images/image-06.jpg"/>
+<div class="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors"></div>
+</div>
+<h4 class="font-bold text-lg">全科诊室</h4>
+<p class="text-on-surface-variant text-sm">数字化诊察系统，实时同步病历与检查影像。</p>
+</div>
+<!-- Card 3 -->
+<div class="group cursor-pointer">
+<div class="relative overflow-hidden rounded-xl h-80 mb-4">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="High-tech veterinary laboratory with microscopes, blood analyzers, and precision testing equipment in a clean room" src="assets/images/image-07.jpg"/>
+<div class="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors"></div>
+</div>
+<h4 class="font-bold text-lg">中心化检验室</h4>
+<p class="text-on-surface-variant text-sm">配备国际领先的生化、血检等自动化检测设备。</p>
+</div>
+<!-- Card 4 -->
+<div class="group cursor-pointer">
+<div class="relative overflow-hidden rounded-xl h-80 mb-4">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Sterile animal surgery suite with advanced anesthesia machines, monitoring equipment, and surgical lighting" src="assets/images/image-08.jpg"/>
+<div class="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors"></div>
+</div>
+<h4 class="font-bold text-lg">无菌手术室</h4>
+<p class="text-on-surface-variant text-sm">万级层流净化标准，确保高难度手术的安全执行。</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Bottom CTA -->
+<section class="py-24 bg-surface-container-lowest">
+<div class="max-w-5xl mx-auto px-4 md:px-8 text-center">
+<div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary-container text-white mb-8">
+<span class="material-symbols-outlined text-3xl">medical_services</span>
+</div>
+<h2 class="text-4xl md:text-5xl font-black text-on-surface tracking-tight mb-8">
+                    准备好为您宠物提供更专业的检查吗?
+                </h2>
+<div class="flex flex-col md:flex-row justify-center gap-4">
+<button class="px-6 sm:px-10 py-4 bg-primary text-on-primary rounded-lg font-bold text-lg shadow-[0_20px_40px_rgba(0,107,50,0.2)] hover:bg-primary-container transition-all">
+                        联系咨询
+                    </button>
+<button class="px-6 sm:px-10 py-4 bg-surface-container-low text-on-surface-variant rounded-lg font-bold text-lg hover:bg-surface-container-high transition-all">
+                        查看科室
+                    </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-12 px-4 md:px-8 border-t border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-7xl mx-auto">
+<div class="md:col-span-1">
+<div class="text-lg font-bold text-emerald-700 mb-6">浙江张旭动物医院</div>
+<p class="font-noto-sans font-normal text-xs leading-relaxed text-slate-500 dark:text-slate-400">
+                    浙江省领先的转诊与急诊中心，24小时守护伴侣动物健康。
+                </p>
+</div>
+<div>
+<h5 class="text-sm font-bold mb-6 text-on-surface">快速链接</h5>
+<ul class="space-y-4 font-noto-sans font-normal text-xs leading-relaxed text-slate-500 dark:text-slate-400">
+<li><a class="hover:text-emerald-600 dark:hover:text-emerald-400 underline-offset-4 hover:underline transition-all" href="contact.html">分院地址</a></li>
+<li><a class="hover:text-emerald-600 dark:hover:text-emerald-400 underline-offset-4 hover:underline transition-all" href="contact.html">急诊通道</a></li>
+<li><a class="hover:text-emerald-600 dark:hover:text-emerald-400 underline-offset-4 hover:underline transition-all" href="contact.html">社交媒体</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-sm font-bold mb-6 text-on-surface">法律合规</h5>
+<ul class="space-y-4 font-noto-sans font-normal text-xs leading-relaxed text-slate-500 dark:text-slate-400">
+<li><a class="hover:text-emerald-600 dark:hover:text-emerald-400 underline-offset-4 hover:underline transition-all" href="#">隐私政策</a></li>
+<li><a class="hover:text-emerald-600 dark:hover:text-emerald-400 underline-offset-4 hover:underline transition-all" href="#">法律声明</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-sm font-bold mb-6 text-on-surface">订阅动态</h5>
+<div class="flex items-center">
+<input class="bg-white dark:bg-slate-900 border-none rounded-l-lg py-2 px-4 text-xs w-full focus:ring-1 focus:ring-emerald-500" placeholder="您的邮箱" type="text"/>
+<button class="bg-emerald-700 text-white p-2 rounded-r-lg"><span class="material-symbols-outlined text-sm">send</span></button>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto mt-12 pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
+<div class="font-noto-sans font-normal text-xs leading-relaxed text-slate-500 dark:text-slate-400">
+                © 2024 浙江张旭动物医院 版权所有 浙ICP备xxxxxxxx号
+            </div>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-slate-400 hover:text-emerald-600 cursor-pointer">share</span>
+<span class="material-symbols-outlined text-slate-400 hover:text-emerald-600 cursor-pointer">qr_code_2</span>
+</div>
+</div>
+</footer>
+<script>
+(() => {
+  const routes = [
+    { pattern: /联系我们|分院地址|急诊|预约|挂号|问诊|在线咨询/, href: "contact.html" },
+    { pattern: /专家|医生|团队|张旭/, href: "team.html" },
+    { pattern: /医疗服务|科室|诊疗|服务/, href: "services.html" },
+    { pattern: /就诊|指南|流程/, href: "guide.html" },
+    { pattern: /医院|关于|概况|了解更多/, href: "about.html" }
+  ];
+
+  document.addEventListener("click", (event) => {
+    const control = event.target.closest("button");
+    if (!control) return;
+    const text = control.textContent.replace(/\s+/g, "").trim();
+    const route = routes.find((item) => item.pattern.test(text));
+    if (!route) return;
+    window.location.href = route.href;
+  });
+})();
+</script>
+</body></html>
+
+
+
+
+
+
+
+

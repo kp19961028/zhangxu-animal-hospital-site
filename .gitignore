@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Next.js and build output
+.next/
+out/
+dist/
+build/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Tests and coverage
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local runtime files
+.server-pid
+
+# Generated preview artifacts
+preview-*.png
+preview-*.jpg
+*contact-sheet*.jpg
+
+# Raw working materials kept outside version control
+source-materials/
+assets/doctor-portraits-v1.1-lowres-backup/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
