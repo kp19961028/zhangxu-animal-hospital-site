@@ -126,6 +126,7 @@
         }
       }
     </style>
+<link href="assets/css/mobile.css" rel="stylesheet"/>
 </head>
 <body class="bg-surface text-on-surface overflow-x-hidden">
 <!-- Top Navigation Bar -->
@@ -150,20 +151,20 @@
 <div class="bg-slate-100 dark:bg-slate-800 h-[1px] w-full"></div>
 </header>
 <!-- Hero Section -->
-<section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+<section class="relative min-h-screen flex items-center pt-20 overflow-hidden mobile-hero">
 <div class="absolute inset-0 z-0">
 <img class="w-full h-full object-cover" data-alt="professional modern veterinary clinic interior with high-end equipment, bright windows, and minimal clinical aesthetic in soft daylight" src="assets/images/image-01.jpg" style=""/>
 <div class="absolute inset-0 bg-white/70 backdrop-blur-[2px]"></div>
 </div>
 <div class="relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-20">
 <div class="max-w-3xl">
-<h1 class="text-4xl sm:text-5xl md:text-7xl font-extrabold text-on-surface tracking-tight mb-8 leading-[1.1]" style="">
+<h1 class="text-4xl sm:text-5xl md:text-7xl font-extrabold text-on-surface tracking-tight mb-8 leading-[1.1] mobile-fluid-heading" style="">
                     让专业医疗，<br/><span class="text-primary" style="">守护每一个</span><br/>毛孩子家庭
                 </h1>
-<p class="text-xl text-on-surface-variant leading-relaxed mb-12" style="">
+<p class="text-xl text-on-surface-variant leading-relaxed mb-12 mobile-copy" style="">
                     浙江张旭动物医院，专注犬猫临床诊疗，以更规范的诊疗流程、更细致的沟通和更可靠的医疗服务，陪伴每一次重要的就诊时刻。
                 </p>
-<div class="flex flex-wrap gap-4">
+<div class="flex flex-wrap gap-4 mobile-actions">
 <button class="bg-primary text-on-primary px-6 sm:px-10 py-4 rounded-lg font-bold text-lg hover:bg-primary-container transition-all shadow-xl shadow-primary/10" style="">
                         了解科室服务
                     </button>
@@ -480,6 +481,14 @@
   });
 })();
 </script>
+<nav class="mobile-bottom-nav" aria-label="手机底部导航">
+<a href="index.html" aria-current="page"><span class="material-symbols-outlined">home</span><span>首页</span></a>
+<a href="about.html"><span class="material-symbols-outlined">apartment</span><span>概况</span></a>
+<a href="services.html"><span class="material-symbols-outlined">medical_services</span><span>服务</span></a>
+<a href="team.html"><span class="material-symbols-outlined">groups</span><span>专家</span></a>
+<a href="guide.html"><span class="material-symbols-outlined">event_note</span><span>就诊</span></a>
+<a href="contact.html"><span class="material-symbols-outlined">call</span><span>联系</span></a>
+</nav>
 </body></html>
 
 

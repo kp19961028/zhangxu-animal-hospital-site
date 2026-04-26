@@ -118,6 +118,7 @@
         }
       }
     </style>
+<link href="assets/css/mobile.css" rel="stylesheet"/>
 </head>
 <body class="bg-surface text-on-surface overflow-x-hidden">
 <!-- TopNavBar -->
@@ -136,9 +137,6 @@
                     联系我们
                 </button>
 </div>
-<div class="md:hidden">
-<span class="material-symbols-outlined text-slate-900">menu</span>
-</div>
 </div>
 <div class="bg-slate-100 dark:bg-slate-800 h-[1px] w-full"></div>
 </nav>
@@ -148,7 +146,7 @@
 <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 border-l-4 border-primary pl-6">
 <div>
 <span class="text-secondary font-bold tracking-widest text-xs uppercase mb-2 block">Our Specialists</span>
-<h1 class="text-5xl md:text-6xl font-extrabold tracking-tight text-on-surface max-w-2xl leading-tight">
+<h1 class="text-5xl md:text-6xl font-extrabold tracking-tight text-on-surface max-w-2xl leading-tight mobile-fluid-heading">
                         专业的判断，来自经验与责任
                     </h1>
 </div>
@@ -159,7 +157,7 @@
 </section>
 <!-- Filter Bar -->
 <section class="max-w-7xl mx-auto px-4 md:px-8 mb-12">
-<div class="flex flex-wrap items-center gap-4 py-6 border-y border-outline-variant/20">
+<div class="flex flex-wrap items-center gap-4 py-6 border-y border-outline-variant/20 mobile-scroll-row">
 <span class="text-on-surface-variant text-sm font-semibold mr-4 flex items-center gap-2">
 <span class="material-symbols-outlined text-sm">filter_list</span>
                     筛选院区:
@@ -309,8 +307,15 @@
   });
 })();
 </script>
+<nav class="mobile-bottom-nav" aria-label="手机底部导航">
+<a href="index.html"><span class="material-symbols-outlined">home</span><span>首页</span></a>
+<a href="about.html"><span class="material-symbols-outlined">apartment</span><span>概况</span></a>
+<a href="services.html"><span class="material-symbols-outlined">medical_services</span><span>服务</span></a>
+<a href="team.html" aria-current="page"><span class="material-symbols-outlined">groups</span><span>专家</span></a>
+<a href="guide.html"><span class="material-symbols-outlined">event_note</span><span>就诊</span></a>
+<a href="contact.html"><span class="material-symbols-outlined">call</span><span>联系</span></a>
+</nav>
 </body></html>
-
 
 
 

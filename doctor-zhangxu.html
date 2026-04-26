@@ -50,6 +50,7 @@ html, body { max-width: 100%; overflow-x: hidden; }
   .max-w-7xl { max-width: calc(100vw - 2rem) !important; }
 }
 </style>
+<link href="assets/css/mobile.css" rel="stylesheet"/>
 </head>
 <body class="bg-surface text-on-surface">
 <nav class="sticky top-0 z-50 bg-white/85 backdrop-blur-md shadow-sm">
@@ -73,14 +74,14 @@ html, body { max-width: 100%; overflow-x: hidden; }
 </a>
 <div class="grid grid-cols-1 lg:grid-cols-[380px_1fr] gap-10 items-stretch">
 <div class="bg-surface-container-lowest rounded-xl overflow-hidden ring-1 ring-outline-variant/20">
-<img alt="" class="w-full h-full min-h-[420px] object-contain bg-surface-container-high" id="portrait"/>
+<img alt="" class="w-full h-full min-h-[420px] object-contain bg-surface-container-high mobile-profile-image" id="portrait"/>
 </div>
-<div class="bg-surface-container-lowest rounded-xl p-8 md:p-12 ring-1 ring-outline-variant/20 flex flex-col justify-center">
+<div class="bg-surface-container-lowest rounded-xl p-8 md:p-12 ring-1 ring-outline-variant/20 flex flex-col justify-center mobile-card-padding">
 <div class="flex flex-wrap gap-2 mb-6" id="badges"></div>
 <p class="text-secondary font-bold tracking-widest text-xs uppercase mb-3">Doctor Profile</p>
-<h1 class="text-5xl md:text-6xl font-extrabold tracking-tight mb-3" id="doctor-name"></h1>
+<h1 class="text-5xl md:text-6xl font-extrabold tracking-tight mb-3 mobile-section-heading" id="doctor-name"></h1>
 <p class="text-primary font-bold text-xl mb-6" id="doctor-role"></p>
-<p class="text-on-surface-variant leading-relaxed text-lg mb-8" id="doctor-summary"></p>
+<p class="text-on-surface-variant leading-relaxed text-lg mb-8 mobile-copy" id="doctor-summary"></p>
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
 <div class="bg-surface-container-low rounded-lg p-5">
 <p class="text-xs font-bold text-on-surface-variant mb-2">所在院区</p>
@@ -164,5 +165,13 @@ if (profile) {
   renderList("focus-list", profile.focus || []);
 }
 </script>
+<nav class="mobile-bottom-nav" aria-label="手机底部导航">
+<a href="index.html"><span class="material-symbols-outlined">home</span><span>首页</span></a>
+<a href="about.html"><span class="material-symbols-outlined">apartment</span><span>概况</span></a>
+<a href="services.html"><span class="material-symbols-outlined">medical_services</span><span>服务</span></a>
+<a href="team.html" aria-current="page"><span class="material-symbols-outlined">groups</span><span>专家</span></a>
+<a href="guide.html"><span class="material-symbols-outlined">event_note</span><span>就诊</span></a>
+<a href="contact.html"><span class="material-symbols-outlined">call</span><span>联系</span></a>
+</nav>
 </body>
 </html>
