@@ -93,7 +93,6 @@
             '<button data-close-drawer aria-label="关闭菜单" class="grid place-items-center w-10 h-10 -mr-2 rounded-full active:bg-surface-high"><span class="material-symbols-outlined">close</span></button>' +
           '</div>' +
           '<div class="px-3 py-2 flex flex-col">' + links + '</div>' +
-          '<a href="../index.html" data-desktop class="mt-auto m-5 grid place-items-center h-11 rounded-xl bg-surface-high text-[13px] font-medium active:bg-surface-highest">查看桌面版网站</a>' +
         '</nav>' +
       '</div>';
   }
