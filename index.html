@@ -4,6 +4,18 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>首页 - 浙江张旭动物医院</title>
+<!-- 设备跳转：手机访客前往移动版（可在移动版选择“查看桌面版”后停止跳转） -->
+<script>
+(function () {
+  try {
+    var ua = navigator.userAgent || "";
+    var isMobile = window.matchMedia("(max-width: 820px)").matches ||
+      /Android|iPhone|iPod|Windows Phone|BlackBerry|IEMobile|Opera Mini|Mobile/i.test(ua);
+    var optedDesktop = sessionStorage.getItem("preferDesktop") === "1";
+    if (isMobile && !optedDesktop) { window.location.replace("m/index.html"); }
+  } catch (e) {}
+})();
+</script>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>

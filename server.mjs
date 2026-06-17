@@ -56,6 +56,7 @@ const server = http.createServer(async (request, response) => {
   createReadStream(filePath).pipe(response);
 });
 
-server.listen(port, "127.0.0.1", () => {
-  console.log(`http://localhost:${port}`);
+const host = process.env.HOST || "127.0.0.1";
+server.listen(port, host, () => {
+  console.log(`http://${host === "0.0.0.0" ? "localhost" : host}:${port}`);
 });

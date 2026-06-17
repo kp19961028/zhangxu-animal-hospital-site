@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html class="light" lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<meta name="theme-color" content="#006b32"/>
+<title>张旭 院长 · 浙江张旭动物医院</title>
+<script>
+(function(){try{var ua=navigator.userAgent||"";var preview=/[?&]preview=1/.test(location.search);var isMobile=window.matchMedia("(max-width: 820px)").matches||/Android|iPhone|iPod|Windows Phone|BlackBerry|IEMobile|Opera Mini|Mobile/i.test(ua);if(!isMobile&&!preview){var f=(location.pathname.split("/").pop()||"index.html");window.location.replace("../"+f+location.search);}}catch(e){}})();
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&amp;family=Noto+Sans+SC:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="assets/shell.js"></script>
+<link rel="stylesheet" href="assets/mobile.css"/>
+</head>
+<body class="font-body antialiased" data-page="team">
+<main>
+  <!-- 院长寄语 -->
+  <section class="px-5 pt-4">
+    <div class="rounded-xl3 bg-on-surface text-white p-6">
+      <span class="text-5xl leading-none font-display text-primary-fixed-dim/60">“</span>
+      <p class="text-[14.5px] leading-[1.85] text-white/85 -mt-2">每一个生命都值得被全力以赴。精湛技术是基础，医者的责任感才是通往治愈的唯一路径。</p>
+      <p class="mt-4 font-display font-bold text-[14px] text-primary-fixed-dim">— 张旭 院长</p>
+    </div>
+  </section>
+  <div id="docDetail"></div>
+</main>
+<script src="../assets/js/doctors-data.js"></script>
+<script>
+  window.renderDoctorDetail("docDetail", "zhang-xu");
+</script>
+</body>
+</html>
