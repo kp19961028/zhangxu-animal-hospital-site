@@ -20,7 +20,7 @@
     inset: auto 0 0 0;
     z-index: 70;
     display: grid;
-    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-template-columns: repeat(7, minmax(0, 1fr));
     gap: 0.125rem;
     width: 100vw;
     max-width: 100vw;
@@ -145,5 +145,22 @@
 
   .border-l-4 .mobile-fluid-heading {
     width: calc(100vw - 6rem) !important;
+  }
+}
+
+/* 7 项底部导航在超窄屏的安全微调，避免挤压/溢出 */
+@media (max-width: 360px) {
+  .mobile-bottom-nav {
+    gap: 0.05rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
+
+  .mobile-bottom-nav a {
+    font-size: 0.56rem;
+  }
+
+  .mobile-bottom-nav .material-symbols-outlined {
+    font-size: 1.15rem;
   }
 }

@@ -9,6 +9,7 @@
 - `services.html`：科室与诊疗服务
 - `team.html`：专家团队
 - `guide.html`：就诊指南
+- `news.html`：医院最新消息
 - `contact.html`：联系我们
 - `doctor-zhangxu.html`：张旭医生详情页
 
